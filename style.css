@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    /*padding: 230px 565px;*/
+    
+}
+form{
+    background-color: rgb(5, 123, 84);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 25vw;
+    height: 30vh;   
+}
+.title{
+    color: rgb(175, 219, 136);
+}
+#username, #password{
+    height: 2vh;
+    background-color: rgb(5, 123, 84);
+    color: rgb(175, 219, 136);
+    border: none;
+    outline: none;
+}
+.hr{
+    width: 10vw; 
+}
+#button{
+    width: 5vw;
+    height: 2vw;
+}
